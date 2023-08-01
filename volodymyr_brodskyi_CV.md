@@ -97,7 +97,7 @@ Participation:
 
 
 ### Education
-- Certified Solution Amazon Architect (2020)
+- Certified Solution Architect Associate (2020)
 - Certified Technical Interviewer (2019)
 - Master's degree in computer science 
 - Chemical specialist diploma
