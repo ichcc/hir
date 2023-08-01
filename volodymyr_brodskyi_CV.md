@@ -1,7 +1,7 @@
 # [Volodymyr Brodskyi](https://www.linkedin.com/in/vbrodskyi/)
 
 	volodymyr.brodskyi@icloud.com
-	+972533738036
+	[+972533738036](https://wa.me/+972533738036)
 
 
 ## Summary
@@ -10,14 +10,13 @@ With over 20 years of experience in the IT industry and solid production experti
 ## Experience 
 
 ### Primary skills
-- AWS 10+ years (CSAA2 2020)
+- AWS 10+ years
 - Azure: 3+ years
 - Kubernetes: 2+ years
 - Postgres: 6+ years
-- Certified Technical Interviewer (2019)
 
 ### Experienced with tools
-Proxmox, Terraform, Ansible, AWS RDS, Gitlab, Jenkins, Docker, Packer, Datadog, Prometheus.
+Terraform, Ansible, Helm, Gitlab, Jenkins, Docker, Datadog, Prometheus.
 
 
 ### [C2i Genomics](https://c2i-genomics.com)
@@ -25,7 +24,7 @@ Proxmox, Terraform, Ansible, AWS RDS, Gitlab, Jenkins, Docker, Packer, Datadog, 
 
 ##### Job position: Senior DevOps Engineer
 
-##### Project Roles: DevOps
+##### Project Roles: DevOps Engineer
 
 Project: Successfully developed and optimized workflows and build pipelines, utilizing industry-standard tools and best practices, resulting in faster and more efficient software development and deployment.
 
@@ -96,15 +95,9 @@ Participation:
 - Provided valuable solutions for input/challenge platform software engineering from the perspectives of deployment, utilizing industry-standard tools and best practices, resulting in faster and more efficient software releases.
 - Designed and implemented system management and deployment automation, streamlining the deployment process and reducing manual intervention, resulting in increased efficiency and cost savings.
 
-### Language
-- Ukrainian, Russian - native
-- English - full professional proficiency
-- Hebrew - beginner 
 
 ### Education
+- Certified Solution Amazon Architect (2020)
+- Certified Technical Interviewer (2019)
 - Master's degree in computer science 
 - Chemical specialist diploma
-
-### Personal
-YOB 1978, married, 3 children
-
