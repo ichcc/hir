@@ -1,7 +1,7 @@
 # [Volodymyr Brodskyi](https://www.linkedin.com/in/vbrodskyi/)
 
 	volodymyr.brodskyi@icloud.com
-	[+972533738036](https://wa.me/+972533738036)
+	+972533738036
 
 
 ## Summary
