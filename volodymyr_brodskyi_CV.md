@@ -10,17 +10,33 @@ With over 20 years of experience in the IT industry and solid production experti
 ## Experience 
 
 ### Primary skills
-- AWS 10+ years
-- Azure: 3+ years
-- Kubernetes: 2+ years
+- Clouds (AWS 10+ years, Azure: 3+ years, GCP: 2+ years)
+- Kubernetes: 2+ years (AKS, EKS, GKE, on-premises)
 - Postgres: 6+ years
 
 ### Experienced with tools
 Terraform, Ansible, Helm, Gitlab, Jenkins, Docker, Datadog, Prometheus.
 
+### [FILO Systems](https://filo.systems)
+#### August 2023 - current time
+
+##### Job position: Senior DevOps Engineer
+
+##### Project Roles: DevOps Engineer
+
+Project: Successfully optimized and developed processes for building and testing new software builds. Created benchmarking standards for various platforms and operating systems.
+
+Participation:
+
+- Streamlined and optimized GitLab pipelines to facilitate the creation of new binary builds, enhancing efficiency and reducing time-to-deployment.
+- Designed and implemented benchmarking methodologies, leveraging InfluxDB to collect data across diverse platforms and cloud environments (AWS, GCP, on-premises).
+- Enhanced infrastructure and development workflows for the research team, enabling efficient data collection and storage optimization for model development.
+- Fostered close collaboration between data science and development teams, facilitating seamless communication and coordination. Resulted in successful project delivery and increased overall productivity.
+
+
 
 ### [C2i Genomics](https://c2i-genomics.com)
-#### February 2022 - current time
+#### February 2022 - Jule 2023
 
 ##### Job position: Senior DevOps Engineer
 
