@@ -3,7 +3,7 @@
 +972533738036 / <volodymyr.brodskyi@icloud.com>
 
 ---
-PDF: [3 pages](./PDF/volodymyr_brodsky_CV.pdf) / [5 pages](./PDF/volodymyr_brodsky_4p_CV.pdf)
+PDF: [3 pages](./volodymyr_brodsky_CV.pdf) / [5 pages](./volodymyr_brodsky_4p_CV.pdf)
 
 
 ## Summary
