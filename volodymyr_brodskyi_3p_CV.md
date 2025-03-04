@@ -3,16 +3,16 @@
 +972533738036 / <volodymyr.brodskyi@icloud.com>
 
 ---
-PDF: [3 pages](./volodymyr_brodskyi_3p_CV.pdf) / [4 pages](./volodymyr_brodskyi_4p_CV.pdf)
+PDF: [3 pages](./volodymyr_brodsky_3p_CV.pdf) / [4 pages](./volodymyr_brodsky_4p_CV.pdf)
 
 ## Summary
 
-With over 20 years in IT and a decade in DevOps, I specialize in automation, cloud migrations, and infrastructure re-architecture. I’ve led high-load migrations, optimized CI/CD pipelines, and implemented robust security controls—all while mentoring teams and driving significant cost savings. Key achievements include:
+Experienced computer engineer with 20+ years in IT and 10+ years in DevOps. Adept at automation, cloud migration, and team leadership, with a proven track record of enhancing system performance, reducing downtime, and achieving significant cost savings. Key achievements include:
 
-- Cloud Migrations: Successfully migrated high-load projects from AWS to Azure, streamlining architectures and reducing operational costs.
-- Process Optimization: Revamped build and deployment pipelines, cutting build times by up to 30%.
-- Security Enhancements: Developed stringent access controls across 30+ AWS accounts.
-- Cross-Team Leadership: Fostered collaboration between development and data science teams for timely, high-quality project delivery.
+- Successful Cloud Migrations: Led high-load project migrations from AWS to Azure, streamlining architectures and reducing operational costs.
+- Process Optimization: Revamped CI/CD pipelines, cutting build times by up to 30% and accelerating deployment cycles.
+- Enhanced Infrastructure Security: Developed and implemented robust security and governance measures across 30+ AWS accounts.
+- Cross-Team Collaboration: Fostered effective collaboration between development and data science teams, ensuring timely and successful project delivery.
 
 ## Experience
 
@@ -76,59 +76,6 @@ Key Contributions:
 - Improved cross-region data transfer using AWS S3, managing around 30Pb of data with lower latency.
 - Developed granular account permissions and cross-account access controls across 30+ AWS accounts, boosting security and governance.
 - Collaborated closely with data science and development teams to ensure smooth communication and timely project delivery.
-
-### [EPAM](https://www.epam.com)
-
-#### March 2019 - February 2022
-
-##### Job position: System Engineer Level 3
-
-##### Project Roles: DevOps, Mentor, Lead
-
-Project: Led initiatives to optimize monitoring systems and manage infrastructure migrations for multiple high-profile clients (DealHub, Refinitiv, AOS, Esports, EPAM University).
-
-Key Contributions:
-
-- Analyzed and enhanced monitoring tools (CloudWatch, Splunk, Datadog), resulting in performance improvements and cost reductions.
-- Developed production-ready AKS configurations, covering containerization, networking, and security policies.
-- Revamped CI/CD processes with GitLab by introducing automated testing and deployment pipelines.
-- Coordinated the migration of significant production infrastructure from AWS to VCloud, ensuring high availability and enhanced security.
-
-### [WalletFactory](https://walletfactory.com)
-
-#### March 2018 - July 2019
-
-##### Job position: Head of DevOps
-
-##### Project Roles: DevOps, SecOps, Release Engineer, Team Lead
-
-
-Project: Delivered a mobile application and API for smart finance (QR payments, e-money processing, peer-to-peer transactions).
-
-Key Contributions:
-
-- Redesigned environments as Infrastructure as Code (IaC) using Terraform and Ansible, reducing manual intervention.
-- Developed a fault-tolerant database infrastructure with redundancy and backup mechanisms.
-- Led the migration of part of the infrastructure to AWS, leveraging cloud scalability.
-- Implemented a new TIK-stack monitoring system to capture representative metrics and improve issue resolution.
-- Established a 24/7 on-call team to reduce downtime and enhance production reliability.
-
-### [Oracle](https://www.oracle.com/cx/marketing/)
-
-#### July 2015 - December 2017
-
-##### Job position: Senior System Administrator
-
-##### Project Roles: DevOps, Release Engineer
-
-Project:
-Supported and enhanced Oracle Marketing Cloud services across a global network of Oracle-managed data centers.
-
-Key Contributions:
-
-- Automated configuration management using Puppet, ensuring environment consistency and reliability.
-- Developed deployment solutions that accelerated release cycles.
-- Streamlined system management and automation processes, reducing manual tasks and operational costs.
 
 ### Education
 
