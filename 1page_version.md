@@ -1,59 +1,66 @@
 # Volodymyr Brodskyi
-[LinkedIn](https://www.linkedin.com/in/vbrodskyi) • +972533738036 • volodymyr.brodskyi@icloud.com
+
+[LinkedIn](https://www.linkedin.com/in/vbrodskyi/) • +972533738036 • volodymyr.brodskyi@icloud.com
 
 ---
 
 ## Summary
-DevOps and Infrastructure Engineer with 20+ years in IT and 10+ years specializing in automation, cloud migrations, CI/CD optimization, and infrastructure security. Successfully led high-load system migrations, multi-cloud architectures, and cross-team delivery initiatives.
+
+Infrastructure architect with 20+ years in IT and 10+ specializing in DevOps. I design cloud environments for reliability, automate everything that shouldn't require a human, and lead migrations that others call impossible. From 30PB data operations to fintech platforms built from scratch — I treat infrastructure as a strategic asset, not a cost center.
 
 ---
 
 ## Skills
-- **Cloud**: AWS (12+ yrs), Azure (5+ yrs), Azure Cloud Services, GCP (2+ yrs)
-- **Automation**: Terraform, Ansible, Helm
-- **Containers**: Kubernetes, AKS, EKS, GKE, On-Prem, Docker, Podman, LXC/LXD
-- **Databases**: PostgreSQL, MongoDB, Azure SQL, Redis, MySQL
-- **Messaging**: Kafka, RabbitMQ, NATS
+
+- **Cloud**: AWS (12+ yrs), Azure (5+ yrs), GCP (2+ yrs)
+- **Containers**: Kubernetes (AKS, EKS, GKE, on-prem), Docker, Podman, LXC/LXD
+- **Automation**: Terraform, Ansible, Helm, Packer
 - **CI/CD**: GitLab, Azure DevOps, Jenkins, GitHub Actions
+- **Databases**: PostgreSQL, MongoDB, Redis, MySQL
+- **Messaging**: Kafka, RabbitMQ, NATS
 - **Monitoring**: Datadog, Prometheus, Grafana, InfluxDB
-- **Other**: Linux, Bash, Python, Proxmox, VMware
+- **Other**: Linux, Proxmox, VMware, Bash, Python
 
 ---
 
 ## Experience
+
 ### Solution Architect | [2bcloud](https://2bcloud.io) | Aug 2024 – Present
-- Migrated high-load production services from AWS to Azure, adapting architectures for cloud-native environments.
-- Created detailed Low-Level Designs (LLD) and Proof-of-Concepts (POCs) reviewed with security and network teams.
-- Deployed infrastructure using Terraform, Azure DevOps, enabling scalable, secure environments for startups.
+- Migrated high-load production services from AWS to Azure, redesigning architectures for cloud-native operation.
+- Authored Low-Level Designs and Proof-of-Concepts, validated with security and network teams before implementation.
+- Delivered Terraform-based infrastructure on Azure DevOps for multiple startup clients — scalable, auditable, production-ready.
 
 ### Senior DevOps Engineer | [FILO Systems](https://filo.systems) | Aug 2023 – Aug 2024
-- Optimized and accelerated GitLab pipelines for cross-platform binary builds and testing.
-- Designed benchmarking and monitoring systems (InfluxDB, Grafana) across AWS, GCP, and on-prem environments.
-- Improved R&D workflows by optimizing infrastructure for data collection and performance testing.
+- Redesigned GitLab CI/CD pipelines for cross-platform binary builds, cutting build-test cycle times significantly.
+- Built benchmarking and observability stack (InfluxDB, Grafana) spanning AWS, GCP, and on-prem bare metal.
+- Streamlined R&D data collection workflows, enabling faster performance testing and iteration.
 
 ### Senior DevOps Engineer | [C2i Genomics](https://c2i-genomics.com) | Feb 2022 – Jul 2023
-- Refactored Azure DevOps pipelines, significantly reducing build and deployment times.
-- Enhanced cross-region AWS S3 data transfers (~30PB managed) and designed access control policies across 30+ AWS accounts.
-- Strengthened infrastructure security and governance across multiple cloud accounts.
+- Refactored Azure DevOps pipelines, reducing build and deployment times across the engineering organization.
+- Managed ~30PB of cross-region AWS S3 data transfers; designed IAM access control across 30+ AWS accounts.
+- Hardened multi-account cloud security posture — governance policies, least-privilege access, audit trails.
 
 ### System Engineer Level 3 | [EPAM Systems](https://www.epam.com) | Mar 2019 – Feb 2022
-- Improved monitoring and observability systems (CloudWatch, Splunk, Datadog), achieving better system performance and lower costs.
-- Built production-ready Kubernetes clusters (AKS) with strong focus on networking and security.
-- Led migrations of production environments from AWS to VCloud, ensuring HA and regulatory compliance.
+- Overhauled monitoring stack (CloudWatch, Splunk, Datadog), reducing noise and improving incident response time.
+- Built production-ready AKS clusters — networking, security policies, and autoscaling from day one.
+- Led AWS-to-VCloud migration for production workloads, maintaining HA and regulatory compliance throughout.
 
 ### Head of DevOps | [WalletFactory](https://walletfactory.com) | Mar 2018 – Jul 2019
-- Built fintech mobile app infrastructure (QR payments, e-money processing) using Terraform, Ansible, and AWS.
-- Deployed TICK-stack monitoring (Telegraf, InfluxDB, Chronograf, Kapacitor) for real-time system analytics.
-- Formed and led a 24/7 on-call DevOps operations team to maintain high system reliability.
+- Architected fintech infrastructure from scratch — QR payments, e-money processing, peer-to-peer transactions across 5 countries.
+- Deployed full TICK-stack monitoring (Telegraf, InfluxDB, Chronograf, Kapacitor) for real-time production analytics.
+- Built and led a 24/7 on-call operations team; reduced production incident response time and deployment downtime.
 
 ### Senior System Administrator | [Oracle](https://www.oracle.com/cx/marketing/) | Jul 2015 – Dec 2017
-- Automated system configurations with Puppet, improving consistency and reducing manual operations.
-- Developed and maintained deployment solutions for Oracle Marketing Cloud across global datacenters.
-- Contributed to faster, more reliable software releases through infrastructure automation.
+- Automated global datacenter configurations with Puppet across Oracle Marketing Cloud infrastructure.
+- Designed deployment automation that reduced manual intervention and accelerated release cycles.
 
 ---
 
 ## Education
-- Master’s Degree in Computer Science (2020)
-- AWS Solution Architect Associate (2020)
-- Certified Technical Interviewer (2019)
+
+Master's Degree in Computer Science (2020)
+
+## Certifications
+
+AWS Solutions Architect Associate (2020)
+Certified Technical Interviewer (2019)

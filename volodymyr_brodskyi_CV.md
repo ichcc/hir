@@ -7,18 +7,13 @@ PDF: [3 pages](./volodymyr_brodskyi_3p_CV.pdf) / [4 pages](./volodymyr_brodskyi_
 
 ## Summary
 
-With over 20 years in IT and a decade in DevOps, I specialize in automation, cloud migrations, and infrastructure re-architecture. I’ve led high-load migrations, optimized CI/CD pipelines, and implemented robust security controls—all while mentoring teams and driving significant cost savings. Key achievements include:
-
-- Cloud Migrations: Successfully migrated high-load projects from AWS to Azure, streamlining architectures and reducing operational costs.
-- Process Optimization: Revamped build and deployment pipelines, cutting build times by up to 30%.
-- Security Enhancements: Developed stringent access controls across 30+ AWS accounts.
-- Cross-Team Leadership: Fostered collaboration between development and data science teams for timely, high-quality project delivery.
+Infrastructure architect with 20+ years in IT and 10+ specializing in DevOps. I design cloud environments for reliability, automate everything that shouldn't require a human, and lead migrations that others call impossible. From 30PB data operations to fintech platforms built from scratch — I treat infrastructure as a strategic asset, not a cost center.
 
 ## Experience
 
 | Primary Skills                                            | Experienced with tools                 |
 | --------------------------------------------------------- | -------------------------------------- |
-| Clouds: AWS (12+ years), Azure (5+ years), GCP (2+ years) | Terraform, Ansible, Helm               |
+| Clouds: AWS (12+ years), Azure (5+ years), GCP (2+ years) | Terraform, Ansible, Helm, Packer       |
 | On-prem: Proxmox (10+ years), VMware (3+ years)           | MongoDB, Redis, MySQL                  |
 | Kubernetes: 3+ years (AKS, EKS, GKE, on-premises)         | Kafka, RabbitMQ, NATS                  |
 | Postgres: 6+ years                                        | Azure DevOps, Jenkins, GitHub Actions  |
@@ -38,10 +33,9 @@ Project: Migrating various high-load projects from AWS to Azure by adapting exis
 
 Key Contributions:
 
-- Developed and validated detailed Low-Level Designs (LLD)
-- Implemented infrastructure using Terraform, Azure DevOps
-- Created proof-of-concepts (POCs) for diverse solutions
-- Coordinated POC reviews with security and network teams
+- Migrated high-load production services from AWS to Azure, redesigning architectures for cloud-native operation
+- Authored Low-Level Designs and Proof-of-Concepts, validated with security and network teams before implementation
+- Delivered Terraform-based infrastructure on Azure DevOps for multiple startup clients — scalable, auditable, production-ready
 
 ### [FILO Systems](https://filo.systems)
 
@@ -55,10 +49,10 @@ Project: Optimized processes for building and testing software, and established 
 
 Key Contributions:
 
-- Revamped GitLab pipelines to accelerate binary build creation, boosting efficiency and reducing time-to-deployment.
-- Designed and implemented benchmarking methods using InfluxDB for data collection across AWS, GCP, and on-premises environments.
-- Enhanced infrastructure and workflows for the research team, enabling more efficient data collection and storage optimization.
-- Fostered seamless collaboration between data science and development teams, leading to successful project delivery and increased productivity.
+- Redesigned GitLab CI/CD pipelines for cross-platform binary builds, cutting build-test cycle times significantly
+- Built benchmarking and observability stack (InfluxDB, Grafana) spanning AWS, GCP, and on-prem bare metal
+- Streamlined R&D data collection workflows, enabling faster performance testing and iteration
+- Led cross-functional collaboration between data science and development teams for project delivery
 
 ### [C2i Genomics](https://c2i-genomics.com)
 
@@ -72,10 +66,10 @@ Project: Streamlined workflows and build pipelines to accelerate software develo
 
 Key Contributions:
 
-- Refactored and optimized Azure DevOps pipelines, reducing build times and enhancing overall efficiency..
-- Improved cross-region data transfer using AWS S3, managing around 30Pb of data with lower latency.
-- Developed granular account permissions and cross-account access controls across 30+ AWS accounts, boosting security and governance.
-- Collaborated closely with data science and development teams to ensure smooth communication and timely project delivery.
+- Refactored Azure DevOps pipelines, reducing build and deployment times across the engineering organization
+- Managed ~30PB of cross-region AWS S3 data transfers; designed IAM access control across 30+ AWS accounts
+- Hardened multi-account cloud security posture — governance policies, least-privilege access, audit trails
+- Led cross-functional collaboration across data science and development teams
 
 ### [EPAM](https://www.epam.com)
 
@@ -89,10 +83,10 @@ Project: Led initiatives to optimize monitoring systems and manage infrastructur
 
 Key Contributions:
 
-- Analyzed and enhanced monitoring tools (CloudWatch, Splunk, Datadog), resulting in performance improvements and cost reductions.
-- Developed production-ready AKS configurations, covering containerization, networking, and security policies.
-- Revamped CI/CD processes with GitLab by introducing automated testing and deployment pipelines.
-- Coordinated the migration of significant production infrastructure from AWS to VCloud, ensuring high availability and enhanced security.
+- Overhauled monitoring stack (CloudWatch, Splunk, Datadog), reducing noise and improving incident response time
+- Built production-ready AKS clusters — networking, security policies, and autoscaling from day one
+- Revamped CI/CD processes with GitLab — automated testing and deployment pipelines across multiple projects
+- Led AWS-to-VCloud migration for production workloads, maintaining HA and regulatory compliance throughout
 
 ### [WalletFactory](https://walletfactory.com)
 
@@ -103,15 +97,15 @@ Key Contributions:
 ##### Project Roles: DevOps, SecOps, Release Engineer, Team Lead
 
 
-Project: Delivered a mobile application and API for smart finance (QR payments, e-money processing, peer-to-peer transactions).
+Project: Delivered a mobile application and API for smart finance (QR payments, e-money processing, peer-to-peer transactions) across 5 countries.
 
 Key Contributions:
 
-- Redesigned environments as Infrastructure as Code (IaC) using Terraform and Ansible, reducing manual intervention.
-- Developed a fault-tolerant database infrastructure with redundancy and backup mechanisms.
-- Led the migration of part of the infrastructure to AWS, leveraging cloud scalability.
-- Implemented a new TIK-stack monitoring system to capture representative metrics and improve issue resolution.
-- Established a 24/7 on-call team to reduce downtime and enhance production reliability.
+- Architected fintech infrastructure from scratch using Terraform and Ansible — QR payments, e-money processing, peer-to-peer transactions
+- Developed fault-tolerant database infrastructure with automated redundancy and backup mechanisms
+- Led infrastructure migration to AWS, leveraging cloud scalability and managed services
+- Deployed full TICK-stack monitoring (Telegraf, InfluxDB, Chronograf, Kapacitor) for real-time production analytics
+- Built and led a 24/7 on-call operations team; reduced production incident response time and deployment downtime
 
 ### [Oracle](https://www.oracle.com/cx/marketing/)
 
@@ -126,13 +120,15 @@ Supported and enhanced Oracle Marketing Cloud services across a global network o
 
 Key Contributions:
 
-- Automated configuration management using Puppet, ensuring environment consistency and reliability.
-- Developed deployment solutions that accelerated release cycles.
-- Streamlined system management and automation processes, reducing manual tasks and operational costs.
+- Automated global datacenter configurations with Puppet across Oracle Marketing Cloud infrastructure
+- Designed deployment automation that reduced manual intervention and accelerated release cycles
 
 ### Education
 
-- Certified Solution Architect Associate (2020)
+- Master's Degree in Computer Science (2020)
+- Chemical Specialist Diploma (1999)
+
+### Certifications
+
+- AWS Solutions Architect Associate (2020)
 - Certified Technical Interviewer (2019)
-- Master's degree in computer science (2020)
-- Chemical specialist diploma (1999)
