@@ -1,6 +1,7 @@
 /* Theme styling */
 :root {
-  --bg-color: #ffffff;
+  --bg-color: #fcf9f7;
+  --wrapper-bg: #fefefe;
   --text-color: #333333;
   --link-color: #0366d6;
   --line-color: #dddddd;
@@ -9,6 +10,7 @@
 
 body.dark-mode {
   --bg-color: #121212;
+  --wrapper-bg: #1e1e1e;
   --text-color: #e0e0e0;
   --link-color: #58a6ff;
   --line-color: #444444;
@@ -22,7 +24,7 @@ body {
 }
 
 #wrapper {
-  background-color: var(--bg-color);
+  background-color: var(--wrapper-bg);
   color: var(--text-color);
 }
 
@@ -123,7 +125,6 @@ body {
   padding: 0 20px;
   font-size: 15px;
   font-family: "Myriad Pro", "Arial", sans-serif;
-  background: #fcf9f7;
 }
 
 #wrapper {
@@ -131,9 +132,8 @@ body {
   line-height: 1.52381em;
   padding: 50px;
   margin: 0 30px;
-  background: #fefefe;
-  box-shadow: rgba(178, 176, 174, 0.7) 0 0 2px inset;
-  border: solid 1px #737271;
+  box-shadow: rgba(178, 176, 174, 0.3) 0 0 2px inset;
+  border: solid 1px var(--line-color);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
