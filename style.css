@@ -202,13 +202,70 @@ body {
 
 /* Print styles */
 @media print {
-  html,
-  body,
+  html, body {
+    font-size: 11pt !important;
+    background: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   #wrapper {
-    font-size: 10pt !important;
+    font-size: 1em !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: white !important;
+  }
+
+  #wrapper h1 {
+    font-size: 2em !important;
+    margin-top: 0 !important;
+  }
+
+  #wrapper h2 {
+    font-size: 1.4em !important;
+    margin-top: 1em !important;
+    margin-bottom: 0.4em !important;
+  }
+
+  #wrapper h3 {
+    font-size: 1.1em !important;
+    margin-top: 0.8em !important;
+    margin-bottom: 0.3em !important;
+  }
+
+  #wrapper ul {
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+  }
+
+  #wrapper li {
+    margin-bottom: 0.2em !important;
+  }
+
+  #wrapper p {
+    margin: 0.4em 0 !important;
+  }
+
+  #wrapper hr {
+    margin: 0.8em 0 !important;
   }
 
   #theme-toggle {
     display: none !important;
+  }
+
+  a[href]::after {
+    content: none !important;
+  }
+
+  a {
+    color: #333 !important;
+    text-decoration: none !important;
+  }
+
+  .contact-info a {
+    color: #0366d6 !important;
   }
 }
