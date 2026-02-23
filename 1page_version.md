@@ -9,14 +9,14 @@ DevOps and Infrastructure Engineer with 20+ years in IT and 10+ years specializi
 ---
 
 ## Skills
-- **Cloud**: AWS (12+ yrs), Azure (5+ yrs), GCP (2+ yrs)
+- **Cloud**: AWS (12+ yrs), Azure (5+ yrs), Azure Cloud Services, GCP (2+ yrs)
 - **Automation**: Terraform, Ansible, Helm
-- **Containers**: Kubernetes (AKS, EKS, GKE, On-Prem), Docker, Podman, LXC/LXD
-- **Databases**: PostgreSQL, MongoDB, Redis, MySQL
+- **Containers**: Kubernetes, AKS, EKS, GKE, On-Prem, Docker, Podman, LXC/LXD
+- **Databases**: PostgreSQL, MongoDB, Azure SQL, Redis, MySQL
 - **Messaging**: Kafka, RabbitMQ, NATS
 - **CI/CD**: GitLab, Azure DevOps, Jenkins, GitHub Actions
 - **Monitoring**: Datadog, Prometheus, Grafana, InfluxDB
-- **Other**: Linux, Proxmox, VMware, Bash, Python
+- **Other**: Linux, Bash, Python, Proxmox, VMware
 
 ---
 
