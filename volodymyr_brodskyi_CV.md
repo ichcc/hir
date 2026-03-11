@@ -7,35 +7,37 @@ PDF: [3 pages](./volodymyr_brodskyi_3p_CV.pdf) / [4 pages](./volodymyr_brodskyi_
 
 ## Summary
 
-Infrastructure architect with 20+ years in IT and 10+ specializing in DevOps. I design cloud environments for reliability, automate everything that shouldn't require a human, and lead migrations that others call impossible. From 30PB data operations to fintech platforms built from scratch — I treat infrastructure as a strategic asset, not a cost center.
+Solution Architect and DevOps engineer with 10+ years building and migrating cloud infrastructure. Deep hands-on experience in AWS, Azure, Kubernetes, and Terraform. Delivered production systems for fintech, genomics, and media companies — from 30PB data pipelines to zero-downtime migrations. Now focused on enterprise AI infrastructure and cloud-native architectures.
 
 ## Experience
 
-| Primary Skills                                            | Experienced with tools                 |
-| --------------------------------------------------------- | -------------------------------------- |
-| Clouds: AWS (12+ years), Azure (5+ years), GCP (2+ years) | Terraform, Ansible, Helm, Packer       |
-| On-prem: Proxmox (10+ years), VMware (3+ years)           | MongoDB, Redis, MySQL                  |
-| Kubernetes: 3+ years (AKS, EKS, GKE, on-premises)         | Kafka, RabbitMQ, NATS                  |
-| Postgres: 6+ years                                        | Azure DevOps, Jenkins, GitHub Actions  |
-| GitLab: 3+ years                                          | Datadog, Prometheus, Grafana, InfluxDB |
-| Linux                                                     | Nginx, HAProxy, Traefik                |
-| Bash/Python                                               | Docker, Podman, LXC/LXD                |
+**Cloud:** AWS (12+ yrs), Azure (5+ yrs), GCP (2+ yrs)
+**IaC & Automation:** Terraform, Pulumi, Ansible, Helm
+**Kubernetes:** AKS, EKS, GKE, on-premises (3+ yrs)
+**CI/CD:** GitLab CI, Azure DevOps, Jenkins, GitHub Actions
+**Databases:** PostgreSQL (6+ yrs), MongoDB, Redis, MySQL
+**Observability:** Datadog, Prometheus, Grafana, InfluxDB
+**Messaging:** Kafka, RabbitMQ, NATS
+**On-prem / Virtualization:** Proxmox, VMware, LXC/LXD
+**Languages:** Bash, Python
+**AI/LLM Tooling:** Anthropic Claude API, enterprise LLM integration
 
 ### [2bcloud](https://2bcloud.io)
 
-#### August 2024 - presents
+#### August 2024 – present
 
 ##### Job position: Solution Architect
 
 ##### Project Roles: Solution Architect / DevOps Engineer
 
-Project: Migrating various high-load projects from AWS to Azure by adapting existing services and architectures for the new environment.
+Project: Migrating high-load enterprise workloads from AWS to Azure and delivering AI-powered infrastructure solutions for enterprise clients.
 
 Key Contributions:
 
 - Migrated high-load production services from AWS to Azure, redesigning architectures for cloud-native operation
 - Authored Low-Level Designs and Proof-of-Concepts, validated with security and network teams before implementation
 - Delivered Terraform-based infrastructure on Azure DevOps for multiple startup clients — scalable, auditable, production-ready
+- Designed and deployed enterprise Claude (Anthropic) integration for a client — architected secure API gateway, IAM roles, audit logging, and usage controls for production LLM workloads
 
 ### [FILO Systems](https://filo.systems)
 
@@ -107,26 +109,9 @@ Key Contributions:
 - Deployed full TICK-stack monitoring (Telegraf, InfluxDB, Chronograf, Kapacitor) for real-time production analytics
 - Built and led a 24/7 on-call operations team; reduced production incident response time and deployment downtime
 
-### [Oracle](https://www.oracle.com/cx/marketing/)
-
-#### July 2015 - December 2017
-
-##### Job position: Senior System Administrator
-
-##### Project Roles: DevOps, Release Engineer
-
-Project:
-Supported and enhanced Oracle Marketing Cloud services across a global network of Oracle-managed data centers.
-
-Key Contributions:
-
-- Automated global datacenter configurations with Puppet across Oracle Marketing Cloud infrastructure
-- Designed deployment automation that reduced manual intervention and accelerated release cycles
-
 ### Education
 
 - Master's Degree in Computer Science (2020)
-- Chemical Specialist Diploma (1999)
 
 ### Certifications
 
