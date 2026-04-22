@@ -40,11 +40,17 @@ body {
   background-color: var(--line-color);
 }
 
-/* Theme toggle button */
-#theme-toggle {
+/* Controls container (lang + theme toggles) */
+#controls {
   position: fixed;
   top: 10px;
   right: 10px;
+  display: flex;
+  gap: 8px;
+  z-index: 1000;
+}
+
+#controls button {
   padding: 8px 12px;
   background-color: var(--text-color);
   color: var(--bg-color);
@@ -52,20 +58,47 @@ body {
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
-  z-index: 1000;
   opacity: 0.7;
   transition: opacity 0.3s;
+  font-family: inherit;
+  white-space: nowrap;
 }
 
-#theme-toggle:hover {
+#controls button:hover {
   opacity: 1;
+}
+
+/* RTL layout for Hebrew */
+body.rtl #wrapper {
+  direction: rtl;
+  text-align: right;
+  font-family: "Arial", "Helvetica Neue", sans-serif;
+}
+
+body.rtl #wrapper ul,
+body.rtl #wrapper ol {
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+/* Language content visibility */
+[data-lang] {
+  display: none;
+}
+
+[data-lang].active {
+  display: revert;
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-  #theme-toggle {
+  #controls {
     top: 5px;
     right: 5px;
+    gap: 6px;
+  }
+
+  #controls button {
     padding: 6px 10px;
     font-size: 12px;
   }
@@ -252,7 +285,7 @@ body {
     margin: 0.8em 0 !important;
   }
 
-  #theme-toggle {
+  #controls {
     display: none !important;
   }
 
