@@ -30,21 +30,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="normal">
+
+    <!-- Shared icon sprite -->
+    <svg style="display:none" aria-hidden="true">
+      <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></symbol>
+      <symbol id="icon-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></symbol>
+      <symbol id="icon-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></symbol>
+      <symbol id="icon-zap" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></symbol>
+    </svg>
+
     <div id="wrapper">
 
       <!-- ===== ENGLISH ===== -->
       <div data-lang="en" class="active">
 
-        <h1>Volodymyr Brodskyi</h1>
+        <div class="cv-header">
+          <h1>Volodymyr Brodskyi</h1>
+          <p class="role-title">Cloud &amp; AI Infrastructure Architect</p>
+          <p class="contact-row">
+            <span class="contact-item"><svg class="icon"><use href="#icon-pin"></use></svg>Israel</span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-phone"></use></svg><a href="tel:+972533738036">+972 53 373 8036</a></span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-mail"></use></svg><a href="mailto:volodymyr.brodskyi@icloud.com">volodymyr.brodskyi@icloud.com</a></span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-link"></use></svg><a href="https://www.linkedin.com/in/vbrodskyi">linkedin.com/in/vbrodskyi</a></span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-globe"></use></svg><a href="https://hir.1ng.me">hir.1ng.me</a></span>
+          </p>
+          <p class="print-link"><a href="#" onclick="window.print(); return false;">Print / Save PDF</a></p>
+        </div>
 
-        <p class="contact-info">
-          <a href="https://www.linkedin.com/in/vbrodskyi">LinkedIn</a> •
-          <a href="tel:+972533738036">+972533738036</a> •
-          <a href="mailto:volodymyr.brodskyi@icloud.com">volodymyr.brodskyi@icloud.com</a> •
-          <a href="#" onclick="window.print(); return false;">Print / Save PDF</a>
-        </p>
-
-        <hr />
+        <hr class="header-rule" />
 
         <h2>Summary</h2>
 
@@ -52,77 +69,132 @@
           Solution Architect and DevOps engineer with 10+ years building and migrating cloud infrastructure. Deep hands-on experience in AWS, Azure, Kubernetes, and Terraform. Delivered production systems for fintech, genomics, and media companies — from 30PB data pipelines to zero-downtime migrations. Now focused on enterprise AI infrastructure and cloud-native architectures.
         </p>
 
+        <div class="callout">
+          <strong>AI/LLM Infrastructure —</strong> Designed and deployed enterprise Anthropic Claude integrations: secure API gateways, IAM roles, audit logging, and usage controls for production LLM workloads.
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <svg class="icon stat-icon"><use href="#icon-layers"></use></svg>
+            <div>
+              <div class="stat-number">30 PB+</div>
+              <div class="stat-caption">cross-region data migrated, zero loss</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <svg class="icon stat-icon"><use href="#icon-shield"></use></svg>
+            <div>
+              <div class="stat-number">~2m40s RTO</div>
+              <div class="stat-caption">disaster-recovery design, near-zero RPO</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <svg class="icon stat-icon"><use href="#icon-zap"></use></svg>
+            <div>
+              <div class="stat-number">~6x throughput</div>
+              <div class="stat-caption">pipeline re-architected for horizontal scale</div>
+            </div>
+          </div>
+        </div>
+
         <hr />
 
         <h2>Skills</h2>
 
-        <ul>
-          <li><strong>Cloud</strong>: AWS (12+ yrs), Azure (5+ yrs), GCP (2+ yrs)</li>
-          <li><strong>Containers</strong>: Kubernetes (AKS, EKS, GKE, on-prem), Docker, Podman, LXC/LXD</li>
-          <li><strong>IaC &amp; Automation</strong>: Terraform, Pulumi, Ansible, Helm</li>
-          <li><strong>CI/CD</strong>: GitLab, Azure DevOps, Jenkins, GitHub Actions</li>
-          <li><strong>Databases</strong>: PostgreSQL, MongoDB, Redis, MySQL</li>
-          <li><strong>Messaging</strong>: Kafka, RabbitMQ, NATS</li>
-          <li><strong>Monitoring</strong>: Datadog, Prometheus, Grafana, InfluxDB</li>
-          <li><strong>Other</strong>: Linux, Proxmox, VMware, Bash, Python</li>
-          <li><strong>AI/LLM Tooling</strong>: Anthropic Claude API, enterprise LLM integration</li>
-        </ul>
+        <div class="skills-grid">
+          <div class="skills-col">
+            <div class="skill-row"><span class="skill-label">Cloud</span><span>AWS (12+ yrs), Azure (5+ yrs), GCP (2+ yrs)</span></div>
+            <div class="skill-row"><span class="skill-label">Kubernetes</span><span>AKS, EKS, GKE, on-premises (3+ yrs)</span></div>
+            <div class="skill-row"><span class="skill-label">Databases</span><span>PostgreSQL (6+ yrs), MongoDB, Redis, MySQL</span></div>
+            <div class="skill-row"><span class="skill-label">Messaging</span><span>Kafka, RabbitMQ, NATS</span></div>
+            <div class="skill-row"><span class="skill-label">Languages</span><span>Bash, Python</span></div>
+          </div>
+          <div class="skills-col">
+            <div class="skill-row"><span class="skill-label">IaC &amp; Automation</span><span>Terraform, Pulumi, Ansible, Helm, Packer</span></div>
+            <div class="skill-row"><span class="skill-label">CI/CD</span><span>GitLab CI, Azure DevOps, Jenkins, GitHub Actions</span></div>
+            <div class="skill-row"><span class="skill-label">Observability</span><span>Datadog, Prometheus, Grafana, InfluxDB</span></div>
+            <div class="skill-row"><span class="skill-label">On-prem / Virt</span><span>Proxmox, VMware, LXC/LXD, Linux</span></div>
+          </div>
+        </div>
 
         <hr />
 
         <h2>Experience</h2>
 
-        <h3>Solution Architect | <a href="https://2bcloud.io">2bcloud</a> | Aug 2024 – Present</h3>
-        <ul>
-          <li>Migrated high-load production services from AWS to Azure, redesigning architectures for cloud-native operation.</li>
-          <li>Authored Low-Level Designs and Proof-of-Concepts, validated with security and network teams before implementation.</li>
-          <li>Delivered Terraform-based infrastructure on Azure DevOps for multiple startup clients — scalable, auditable, production-ready.</li>
-          <li>Designed and deployed enterprise Claude (Anthropic) integration for a client — architected secure API gateway, IAM roles, audit logging, and usage controls for production LLM workloads.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Solution Architect — <a href="https://2bcloud.io">2bcloud</a></span>
+            <span class="job-dates">Aug 2024 – Present</span>
+          </div>
+          <p class="job-subtitle">Cloud migrations, enterprise AI infrastructure, Azure/AWS</p>
+          <ul class="job-bullets">
+            <li>Migrated high-load production services from AWS to Azure, rebuilding architectures around containerized, cloud-native workloads</li>
+            <li>Diagnosed and remediated a major cloud cost incident, tracing runaway spend to orphaned search indexers and zombie containers</li>
+            <li>Architected a disaster-recovery solution for a mission-critical system, achieving ~2m40s RTO and near-zero RPO</li>
+            <li>Re-architected a media processing pipeline for horizontal batch scaling, delivering a ~6x throughput improvement</li>
+          </ul>
+        </div>
 
-        <h3>Senior DevOps Engineer | <a href="https://filo.systems">FILO Systems</a> | Aug 2023 – Aug 2024</h3>
-        <ul>
-          <li>Redesigned GitLab CI/CD pipelines for cross-platform binary builds, cutting build-test cycle times significantly.</li>
-          <li>Built benchmarking and observability stack (InfluxDB, Grafana) spanning AWS, GCP, and on-prem bare metal.</li>
-          <li>Streamlined R&amp;D data collection workflows, enabling faster performance testing and iteration.</li>
-          <li>Led cross-functional collaboration between data science and development teams for project delivery.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Senior DevOps Engineer — <a href="https://filo.systems">FILO Systems</a></span>
+            <span class="job-dates">Aug 2023 – Aug 2024</span>
+          </div>
+          <p class="job-subtitle">CI/CD, benchmarking, multi-cloud observability</p>
+          <ul class="job-bullets">
+            <li>Redesigned GitLab CI/CD pipelines for cross-platform binary builds, cutting build-test cycle times significantly</li>
+            <li>Built benchmarking and observability stack (InfluxDB, Grafana) spanning AWS, GCP, and on-prem bare metal</li>
+            <li>Streamlined R&amp;D data collection workflows, enabling faster performance testing and iteration</li>
+          </ul>
+        </div>
 
-        <h3>Senior DevOps Engineer | <a href="https://c2i-genomics.com">C2i Genomics</a> | Feb 2022 – Jul 2023</h3>
-        <ul>
-          <li>Refactored Azure DevOps pipelines, reducing build and deployment times across the engineering organization.</li>
-          <li>Managed ~30PB of cross-region AWS S3 data transfers; designed IAM access control across 30+ AWS accounts.</li>
-          <li>Hardened multi-account cloud security posture — governance policies, least-privilege access, audit trails.</li>
-          <li>Led cross-functional collaboration across data science and development teams.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Senior DevOps Engineer — <a href="https://c2i-genomics.com">C2i Genomics</a></span>
+            <span class="job-dates">Feb 2022 – Jul 2023</span>
+          </div>
+          <p class="job-subtitle">Multi-account AWS, data pipelines, security hardening</p>
+          <ul class="job-bullets">
+            <li>Refactored Azure DevOps pipelines, reducing build and deployment times across the engineering organization</li>
+            <li>Managed ~30PB of cross-region AWS S3 data transfers; designed IAM access control across 30+ AWS accounts</li>
+            <li>Hardened multi-account cloud security posture — governance policies, least-privilege access, audit trails</li>
+          </ul>
+        </div>
 
-        <h3>System Engineer Level 3 | <a href="https://www.epam.com">EPAM Systems</a> | Mar 2019 – Feb 2022</h3>
-        <ul>
-          <li>Overhauled monitoring stack (CloudWatch, Splunk, Datadog), reducing noise and improving incident response time.</li>
-          <li>Built production-ready AKS clusters — networking, security policies, and autoscaling from day one.</li>
-          <li>Revamped CI/CD processes with GitLab — automated testing and deployment pipelines across multiple projects.</li>
-          <li>Led AWS-to-VCloud migration for production workloads, maintaining HA and regulatory compliance throughout.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">System Engineer L3 — <a href="https://www.epam.com">EPAM Systems</a></span>
+            <span class="job-dates">Mar 2019 – Feb 2022</span>
+          </div>
+          <p class="job-subtitle">Multi-client: DealHub, Refinitiv, AOS, Esports — AKS, monitoring, CI/CD</p>
+          <ul class="job-bullets">
+            <li>Overhauled monitoring stack (CloudWatch, Splunk, Datadog), reducing noise and improving incident response time</li>
+            <li>Built production-ready AKS clusters — networking, security policies, and autoscaling from day one</li>
+            <li>Led AWS-to-VCloud migration for production fintech workloads with no unplanned downtime and full regulatory compliance</li>
+          </ul>
+        </div>
 
-        <h3>Head of DevOps | <a href="https://walletfactory.com">WalletFactory</a> | Mar 2018 – Jul 2019</h3>
-        <ul>
-          <li>Architected fintech infrastructure from scratch — QR payments, e-money processing, peer-to-peer transactions across 5 countries.</li>
-          <li>Developed fault-tolerant database infrastructure with automated redundancy and backup mechanisms.</li>
-          <li>Led infrastructure migration to AWS, leveraging cloud scalability and managed services.</li>
-          <li>Deployed full TICK-stack monitoring (Telegraf, InfluxDB, Chronograf, Kapacitor) for real-time production analytics.</li>
-          <li>Built and led a 24/7 on-call operations team; reduced production incident response time and deployment downtime.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Head of DevOps — <a href="https://walletfactory.com">WalletFactory</a></span>
+            <span class="job-dates">Mar 2018 – Jul 2019</span>
+          </div>
+          <p class="job-subtitle">Fintech infrastructure from scratch, 5 countries, team leadership</p>
+          <ul class="job-bullets">
+            <li>Architected fintech infrastructure from scratch using Terraform and Ansible — QR payments, e-money, P2P transactions across 5 countries</li>
+            <li>Deployed full TICK-stack monitoring (Telegraf, InfluxDB, Chronograf, Kapacitor) for real-time production analytics</li>
+            <li>Built and led a 24/7 on-call operations team; reduced production incident response time and deployment downtime</li>
+          </ul>
+        </div>
 
         <hr />
 
-        <h2>Education</h2>
-        <p>Master's Degree in Computer Science (2020)</p>
+        <h2>Education &amp; Certifications</h2>
 
-        <h2>Certifications</h2>
-        <p>
-          AWS Solutions Architect Associate (2020)<br />
-          Certified Technical Interviewer (2019)
-        </p>
+        <div class="edu-grid">
+          <div class="edu-item"><strong>Master's Degree, Computer Science</strong><span class="edu-year">2020</span></div>
+          <div class="edu-item"><strong>AWS Solutions Architect Associate</strong><span class="edu-year">2020</span></div>
+        </div>
 
       </div>
       <!-- ===== END ENGLISH ===== -->
@@ -131,16 +203,20 @@
       <!-- ===== HEBREW ===== -->
       <div data-lang="he">
 
-        <h1>וולודימיר ברודסקי</h1>
+        <div class="cv-header">
+          <h1>וולודימיר ברודסקי</h1>
+          <p class="role-title">ארכיטקט תשתיות ענן ו-AI</p>
+          <p class="contact-row">
+            <span class="contact-item"><svg class="icon"><use href="#icon-pin"></use></svg>ישראל</span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-phone"></use></svg><a href="tel:+972533738036">‎+972 53 373 8036</a></span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-mail"></use></svg><a href="mailto:volodymyr.brodskyi@icloud.com">volodymyr.brodskyi@icloud.com</a></span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-link"></use></svg><a href="https://www.linkedin.com/in/vbrodskyi">linkedin.com/in/vbrodskyi</a></span>
+            <span class="contact-item"><svg class="icon"><use href="#icon-globe"></use></svg><a href="https://hir.1ng.me">hir.1ng.me</a></span>
+          </p>
+          <p class="print-link"><a href="#" onclick="window.print(); return false;">הדפסה / שמירה כ-PDF</a></p>
+        </div>
 
-        <p class="contact-info">
-          <a href="https://www.linkedin.com/in/vbrodskyi">LinkedIn</a> •
-          <a href="tel:+972533738036">+972533738036</a> •
-          <a href="mailto:volodymyr.brodskyi@icloud.com">volodymyr.brodskyi@icloud.com</a> •
-          <a href="#" onclick="window.print(); return false;">הדפסה / שמירה כ-PDF</a>
-        </p>
-
-        <hr />
+        <hr class="header-rule" />
 
         <h2>תקציר</h2>
 
@@ -148,77 +224,132 @@
           אדריכל פתרונות ומהנדס DevOps עם ניסיון של 10+ שנים בבניה ומיגרציה של תשתיות ענן. ניסיון מעשי עמוק ב-AWS, Azure, Kubernetes ו-Terraform. ביצעתי מערכות ייצור עבור חברות פינטק, גנומיקה ומדיה — ממסלולי נתונים של 30PB ועד מיגרציות ללא השבתה. כיום מתמקד בתשתיות AI ארגוניות ואדריכלות ענן-נייטיב.
         </p>
 
+        <div class="callout">
+          <strong>תשתיות AI/LLM —</strong> תכנון ופריסה של אינטגרציות Claude (Anthropic) ארגוניות: שערי API מאובטחים, תפקידי IAM, רישום ביקורת ובקרות שימוש לעומסי עבודה של LLM בייצור.
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <svg class="icon stat-icon"><use href="#icon-layers"></use></svg>
+            <div>
+              <div class="stat-number">‎30PB+</div>
+              <div class="stat-caption">נתונים שהועברו בין אזורים, ללא אובדן</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <svg class="icon stat-icon"><use href="#icon-shield"></use></svg>
+            <div>
+              <div class="stat-number">‎~2m40s RTO</div>
+              <div class="stat-caption">תכנון התאוששות מאסון, RPO קרוב לאפס</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <svg class="icon stat-icon"><use href="#icon-zap"></use></svg>
+            <div>
+              <div class="stat-number">‎~6x תפוקה</div>
+              <div class="stat-caption">עיצוב מחדש של הצינור להרחבה אופקית</div>
+            </div>
+          </div>
+        </div>
+
         <hr />
 
         <h2>כישורים</h2>
 
-        <ul>
-          <li><strong>ענן</strong>: AWS (12+ שנים), Azure (5+ שנים), GCP (2+ שנים)</li>
-          <li><strong>מכולות</strong>: Kubernetes (AKS, EKS, GKE, on-prem), Docker, Podman, LXC/LXD</li>
-          <li><strong>IaC ואוטומציה</strong>: Terraform, Pulumi, Ansible, Helm</li>
-          <li><strong>CI/CD</strong>: GitLab, Azure DevOps, Jenkins, GitHub Actions</li>
-          <li><strong>מסדי נתונים</strong>: PostgreSQL, MongoDB, Redis, MySQL</li>
-          <li><strong>מסרים</strong>: Kafka, RabbitMQ, NATS</li>
-          <li><strong>ניטור</strong>: Datadog, Prometheus, Grafana, InfluxDB</li>
-          <li><strong>אחר</strong>: Linux, Proxmox, VMware, Bash, Python</li>
-          <li><strong>כלי AI/LLM</strong>: Anthropic Claude API, שילוב LLM ארגוני</li>
-        </ul>
+        <div class="skills-grid">
+          <div class="skills-col">
+            <div class="skill-row"><span class="skill-label">ענן</span><span>AWS (12+ שנים), Azure (5+ שנים), GCP (2+ שנים)</span></div>
+            <div class="skill-row"><span class="skill-label">Kubernetes</span><span>AKS, EKS, GKE, on-premises (3+ שנים)</span></div>
+            <div class="skill-row"><span class="skill-label">מסדי נתונים</span><span>PostgreSQL (6+ שנים), MongoDB, Redis, MySQL</span></div>
+            <div class="skill-row"><span class="skill-label">מסרים</span><span>Kafka, RabbitMQ, NATS</span></div>
+            <div class="skill-row"><span class="skill-label">שפות תכנות</span><span>Bash, Python</span></div>
+          </div>
+          <div class="skills-col">
+            <div class="skill-row"><span class="skill-label">IaC ואוטומציה</span><span>Terraform, Pulumi, Ansible, Helm, Packer</span></div>
+            <div class="skill-row"><span class="skill-label">CI/CD</span><span>GitLab CI, Azure DevOps, Jenkins, GitHub Actions</span></div>
+            <div class="skill-row"><span class="skill-label">ניטור ותצפיתיות</span><span>Datadog, Prometheus, Grafana, InfluxDB</span></div>
+            <div class="skill-row"><span class="skill-label">On-prem / וירטואליזציה</span><span>Proxmox, VMware, LXC/LXD, Linux</span></div>
+          </div>
+        </div>
 
         <hr />
 
         <h2>ניסיון</h2>
 
-        <h3>אדריכל פתרונות | <a href="https://2bcloud.io">2bcloud</a> | אוגוסט 2024 – היום</h3>
-        <ul>
-          <li>מיגרציה של שירותי ייצור עתירי עומס מ-AWS ל-Azure, עם עיצוב מחדש של ארכיטקטורות לפעולה ענן-נייטיב.</li>
-          <li>כתיבת עיצובים ברמה נמוכה (LLD) ו-POC, אושרו עם צוותי אבטחה ורשת לפני יישום.</li>
-          <li>הספקת תשתית מבוססת Terraform על Azure DevOps עבור מספר לקוחות סטארטאפ — ניתנת להרחבה, ניתנת לביקורת, מוכנה לייצור.</li>
-          <li>תכנון ופריסה של שילוב Claude (Anthropic) ארגוני עבור לקוח — ארכיטקטורת API gateway מאובטח, תפקידי IAM, רישום ביקורת ובקרות שימוש לעומסי עבודת LLM בייצור.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">אדריכל פתרונות — <a href="https://2bcloud.io">2bcloud</a></span>
+            <span class="job-dates">אוגוסט 2024 – היום</span>
+          </div>
+          <p class="job-subtitle">מיגרציות ענן, תשתיות AI ארגוניות, Azure/AWS</p>
+          <ul class="job-bullets">
+            <li>מיגרציה של שירותי ייצור עתירי עומס מ-AWS ל-Azure, בנייה מחדש של הארכיטקטורה סביב עומסי עבודה מבוססי מכולות וענן-נייטיב</li>
+            <li>איתור וטיפול באירוע עלויות ענן משמעותי, איתור מקור הבזבוז באינדקסי חיפוש יתומים ומכולות "זומבי"</li>
+            <li>תכנון פתרון התאוששות מאסון למערכת קריטית, עם RTO של כ-2:40 דקות ו-RPO קרוב לאפס</li>
+            <li>עיצוב מחדש של צינור עיבוד מדיה להרחבה אופקית באצווה (batch), עם שיפור תפוקה של כ-פי 6</li>
+          </ul>
+        </div>
 
-        <h3>מהנדס DevOps בכיר | <a href="https://filo.systems">FILO Systems</a> | אוגוסט 2023 – אוגוסט 2024</h3>
-        <ul>
-          <li>עיצוב מחדש של pipelines ב-GitLab CI/CD לבניות בינאריות חוצות-פלטפורמות, קיצור משמעותי של זמני מחזור בנייה-בדיקה.</li>
-          <li>בניית מחסנית benchmarking וצפייה (InfluxDB, Grafana) המשתרעת על AWS, GCP וחומרה ישירה on-prem.</li>
-          <li>ייעול זרימות עבודה לאיסוף נתוני R&amp;D, המאפשר בדיקות ביצועים ואיטרציה מהירות יותר.</li>
-          <li>הובלת שיתוף פעולה בין-תפקודי בין צוותי מדעי הנתונים והפיתוח.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">מהנדס DevOps בכיר — <a href="https://filo.systems">FILO Systems</a></span>
+            <span class="job-dates">אוגוסט 2023 – אוגוסט 2024</span>
+          </div>
+          <p class="job-subtitle">CI/CD, benchmarking, תצפיתיות רב-ענן</p>
+          <ul class="job-bullets">
+            <li>עיצוב מחדש של pipelines ב-GitLab CI/CD לבניות בינאריות חוצות-פלטפורמות, קיצור משמעותי של זמני מחזור בנייה-בדיקה</li>
+            <li>בניית מחסנית benchmarking וצפייה (InfluxDB, Grafana) הפרוסה על AWS, GCP וחומרה פיזית on-prem</li>
+            <li>ייעול זרימות עבודה לאיסוף נתוני R&amp;D, המאפשר בדיקות ביצועים ואיטרציה מהירות יותר</li>
+          </ul>
+        </div>
 
-        <h3>מהנדס DevOps בכיר | <a href="https://c2i-genomics.com">C2i Genomics</a> | פברואר 2022 – יולי 2023</h3>
-        <ul>
-          <li>שיפוץ pipelines ב-Azure DevOps, קיצור זמני בנייה ופריסה בכל הארגון ההנדסי.</li>
-          <li>ניהול העברות נתונים של ~30PB ב-AWS S3 חוצות-אזורים; תכנון בקרת גישה IAM על פני 30+ חשבונות AWS.</li>
-          <li>חיזוק עמדת אבטחת ענן מרובת חשבונות — מדיניות ממשל, גישה מינימלית, מסלולי ביקורת.</li>
-          <li>הובלת שיתוף פעולה בין-תפקודי בין צוותי מדעי הנתונים והפיתוח.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">מהנדס DevOps בכיר — <a href="https://c2i-genomics.com">C2i Genomics</a></span>
+            <span class="job-dates">פברואר 2022 – יולי 2023</span>
+          </div>
+          <p class="job-subtitle">AWS מרובה-חשבונות, צינורות נתונים, חיזוק אבטחה</p>
+          <ul class="job-bullets">
+            <li>שיפוץ pipelines ב-Azure DevOps, קיצור זמני בנייה ופריסה בכל הארגון ההנדסי</li>
+            <li>ניהול כ-30PB של העברות נתונים חוצות-אזורים ב-AWS S3; תכנון בקרת גישה IAM על פני 30+ חשבונות AWS</li>
+            <li>חיזוק עמדת אבטחת ענן מרובת חשבונות — מדיניות ממשל, גישה בהיקף מינימלי, מסלולי ביקורת</li>
+          </ul>
+        </div>
 
-        <h3>מהנדס מערכות רמה 3 | <a href="https://www.epam.com">EPAM Systems</a> | מרץ 2019 – פברואר 2022</h3>
-        <ul>
-          <li>שיפוץ מחסנית ניטור (CloudWatch, Splunk, Datadog), הפחתת רעש ושיפור זמן תגובה לאירועים.</li>
-          <li>בניית אשכולות AKS מוכנים לייצור — רשת, מדיניות אבטחה ואוטומציה מהיום הראשון.</li>
-          <li>חידוש תהליכי CI/CD עם GitLab — pipelines אוטומטיים לבדיקות ופריסה על פני מספר פרויקטים.</li>
-          <li>הובלת מיגרציה מ-AWS ל-VCloud לעומסי עבודה בייצור, תוך שמירה על HA ועמידה ברגולציה.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">מהנדס מערכות רמה 3 — <a href="https://www.epam.com">EPAM Systems</a></span>
+            <span class="job-dates">מרץ 2019 – פברואר 2022</span>
+          </div>
+          <p class="job-subtitle">ריבוי לקוחות: DealHub, Refinitiv, AOS, Esports — AKS, ניטור, CI/CD</p>
+          <ul class="job-bullets">
+            <li>שיפוץ מחסנית ניטור (CloudWatch, Splunk, Datadog), הפחתת רעש ושיפור זמן תגובה לאירועים</li>
+            <li>בניית אשכולות AKS מוכנים לייצור — רשת, מדיניות אבטחה ואוטומציה מהיום הראשון</li>
+            <li>הובלת מיגרציה מ-AWS ל-VCloud לעומסי עבודה פינטק בייצור, ללא השבתה בלתי מתוכננת ותוך עמידה מלאה ברגולציה</li>
+          </ul>
+        </div>
 
-        <h3>ראש DevOps | <a href="https://walletfactory.com">WalletFactory</a> | מרץ 2018 – יולי 2019</h3>
-        <ul>
-          <li>ארכיטקטורת תשתית פינטק מאפס — תשלומי QR, עיבוד כסף אלקטרוני, עסקאות עמית-לעמית ב-5 מדינות.</li>
-          <li>פיתוח תשתית מסד נתונים עמידה לתקלות עם מנגנוני יתירות וגיבוי אוטומטיים.</li>
-          <li>הובלת מיגרציה של תשתית ל-AWS, תוך מינוף יכולות הענן ושירותים מנוהלים.</li>
-          <li>פריסת ניטור מחסנית TICK מלאה (Telegraf, InfluxDB, Chronograf, Kapacitor) לניתוח ייצור בזמן אמת.</li>
-          <li>בניית והובלת צוות כוננות 24/7; קיצור זמן תגובה לאירועי ייצור וצמצום השבתות פריסה.</li>
-        </ul>
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">ראש DevOps — <a href="https://walletfactory.com">WalletFactory</a></span>
+            <span class="job-dates">מרץ 2018 – יולי 2019</span>
+          </div>
+          <p class="job-subtitle">תשתית פינטק מאפס, 5 מדינות, הובלת צוות</p>
+          <ul class="job-bullets">
+            <li>ארכיטקטורת תשתית פינטק מאפס באמצעות Terraform ו-Ansible — תשלומי QR, כסף אלקטרוני, עסקאות עמית-לעמית ב-5 מדינות</li>
+            <li>פריסת ניטור מחסנית TICK מלאה (Telegraf, InfluxDB, Chronograf, Kapacitor) לניתוח ייצור בזמן אמת</li>
+            <li>בניית והובלת צוות כוננות 24/7; קיצור זמן תגובה לאירועי ייצור וצמצום השבתות פריסה</li>
+          </ul>
+        </div>
 
         <hr />
 
-        <h2>השכלה</h2>
-        <p>תואר שני במדעי המחשב (2020)</p>
+        <h2>השכלה והסמכות</h2>
 
-        <h2>הסמכות</h2>
-        <p>
-          AWS Solutions Architect Associate (2020)<br />
-          Certified Technical Interviewer (2019)
-        </p>
+        <div class="edu-grid">
+          <div class="edu-item"><strong>תואר שני, מדעי המחשב</strong><span class="edu-year">2020</span></div>
+          <div class="edu-item"><strong>AWS Solutions Architect Associate</strong><span class="edu-year">2020</span></div>
+        </div>
 
       </div>
       <!-- ===== END HEBREW ===== -->
